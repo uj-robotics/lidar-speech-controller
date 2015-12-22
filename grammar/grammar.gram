@@ -1,0 +1,10 @@
+#JSGF V1.0;
+
+grammar grammar;
+
+public <forward> = [move] forward | up [please];
+public <backward> = [move] backward | back | down [please];
+public <right> = [move] right [please];
+public <left> = [move] left [please];
+public <wait> = [please] wait;
+
